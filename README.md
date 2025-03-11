@@ -9,14 +9,14 @@
 
 ### Menampilkan sesuatu ke console  
 
-Kita dapat menampilkan sesuatu ke console menggunakan ==console.log==
+Kita dapat menampilkan sesuatu ke console menggunakan `console.log`
 ```js
 console.log('test')
 ```
 
 ### Variable
 
-Ada 3 cara utama membuat variable di JS yaitu ==var==,==let==, dan ==const==  
+Ada 3 cara utama membuat variable di JS yaitu `var`,`let`, dan `const`  
 ```js
 var namaVariable = 'value'
 
