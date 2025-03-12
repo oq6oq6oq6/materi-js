@@ -6,6 +6,8 @@
 1. [Variable](#variable)
 1. [Tipe Data](#tipe-data)
 1. [Operator](#operator)
+1. [Conditionals](#conditionals)
+1. [Loops](#loops)
 
 -----------
 
@@ -54,3 +56,50 @@ console.log(typeof false)
 - `<=`
 - `>`
 - `>=`
+
+### Conditionals
+
+if Statement
+```js
+if (true) {
+  // do something
+} else if (false) {
+  // do something
+} else {
+  // do something
+}
+```
+
+switch Statement
+```js
+let value = 3
+
+switch (value) {
+  case 1:
+    console.log(1)
+  case 2:
+    console.log(2)
+  case 3:
+    console.log(3)
+  case 4:
+    console.log(4)
+    break
+  case 5:
+    console.log(5)
+    break
+
+  default:
+    console.log('x')
+    break
+}
+```
+
+### Loops
+
+Standart for loop
+```js
+for (let i = 0; i < 5; i++) {
+  console.log(i)
+}
+```
+
