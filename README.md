@@ -15,7 +15,7 @@
 
 Kita dapat menampilkan sesuatu ke console menggunakan `console.log`
 ```js
-console.log('test')
+console.log('hello world')
 ```
 
 ### Variable
@@ -47,7 +47,9 @@ console.log(typeof false)
 - `**`
 - `/`
 - `%`
+  
 - `=`
+
 - `==`
 - `===`
 - `!=`
@@ -56,6 +58,9 @@ console.log(typeof false)
 - `<=`
 - `>`
 - `>=`
+
+- `++`
+- `--`
 
 ### Conditionals
 
@@ -94,12 +99,25 @@ switch (value) {
 }
 ```
 
+Exercise :
+```js
+let nama = 'James Lebron'
+let umur = 21
+let sukaDurian = false
+
+console.log(`Nama saya ${nama}`)
+console.log(`Saya berusia ${umur} tahun`)
+console.log(`Saya sudah punya KTP`);
+console.log(`Saya tidak suka durian`);
+```
+
+
 ### Loops
 
 Standart for loop
 ```js
 for (let i = 0; i < 5; i++) {
-  console.log(i)
+  console.log('Saya berjanji tidak akan mencoret-coret tembok lagi')
 }
 ```
 
