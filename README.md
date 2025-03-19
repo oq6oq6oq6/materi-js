@@ -8,6 +8,7 @@
 1. [Operator](#operator)
 1. [Conditionals](#conditionals)
 1. [Loops](#loops)
+1. [Arrays](#arrays)
 
 -----------
 
@@ -47,9 +48,9 @@ console.log(typeof false)
 - `**`
 - `/`
 - `%`
+                
+- `=`  
   
-- `=`
-
 - `==`
 - `===`
 - `!=`
@@ -57,8 +58,8 @@ console.log(typeof false)
 - `<`
 - `<=`
 - `>`
-- `>=`
-
+- `>=`  
+  
 - `++`
 - `--`
 
@@ -73,6 +74,8 @@ if (true) {
 } else {
   // do something
 }
+
+// variable scope
 ```
 
 switch Statement
@@ -117,7 +120,41 @@ console.log(`Saya tidak suka durian`);
 Standart for loop
 ```js
 for (let i = 0; i < 5; i++) {
-  console.log('Saya berjanji tidak akan mencoret-coret tembok lagi')
+  console.log(i)
 }
+
+let iteration = 1
+
+while (iteration < 5) {
+  console.log('Saya berjanji tidak akan mencoret-coret tembok lagi')
+
+  iteration++
+}
+
+// variable scope
 ```
 
+### Arrays
+
+```js
+let namaArray = ['test', 123, true]
+
+console.log(namaArray[0])
+console.log(namaArray[1])
+
+namaArray[0] = 'updated string'
+
+console.log(namaArray[0])
+
+// tampilkan semua data
+
+// tampilkan 3 data pertama
+
+// tampilkan 2 data terakhir
+
+
+let namaArray2 = [['buku', 10], ['pensil', 5], ['penggaris', 0]]
+
+console.log(namaArray2[0][0])
+
+```
