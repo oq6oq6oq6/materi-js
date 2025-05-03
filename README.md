@@ -9,6 +9,8 @@
 1. [Conditionals](#conditionals)
 1. [Loops](#loops)
 1. [Arrays](#arrays)
+1. [Function](#unction)
+1. [Function](#unction)
 
 -----------
 
@@ -158,3 +160,8 @@ let namaArray2 = [['buku', 10], ['pensil', 5], ['penggaris', 0]]
 console.log(namaArray2[0][0])
 
 ```
+
+### Function
+
+
+### Object
