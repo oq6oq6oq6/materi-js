@@ -2,6 +2,7 @@
 
 ## Table of content
 
+1. [Pengenalan Javascript](#pengenalan-javascript)
 1. [Menampilkan sesuatu ke console](#menampilkan-sesuatu-ke-console)
 1. [Variable](#variable)
 1. [Tipe Data](#tipe-data)
@@ -13,6 +14,10 @@
 1. [Function](#unction)
 
 -----------
+
+### Pengenalan Javascript  
+
+Pengertian paling sederhana, Javascript adalah bahasa pemrograman yang dipakai di browser
 
 ### Menampilkan sesuatu ke console  
 
